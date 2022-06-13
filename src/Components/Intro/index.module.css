@@ -76,7 +76,12 @@ h4 {
 .twitter:hover {
   color: #383838;
 }
-
+.mainuBaar {
+  display: none;
+}
+.mainuTitle {
+  display: none;
+}
 @media only screen and (max-width: 800px) {
   .intro {
     flex-direction: column;
@@ -117,5 +122,74 @@ h4 {
   }
   .icons {
     text-align: center;
+  }
+
+  .mainuBaar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: linear-gradient(
+      134deg,
+      rgb(106, 152, 240) 0%,
+      rgb(73, 97, 220) 99%
+    );
+    position: fixed;
+    z-index: 1;
+    bottom: 5px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .closeBtn {
+    width: 40px;
+    height: 40px;
+    color: white;
+  }
+  .openBtn {
+    width: 40px;
+    height: 40px;
+    color: white;
+  }
+
+  .mainuTitle {
+    width: 100px;
+    height: 300px;
+    background-color: transparent;
+    position: fixed;
+    z-index: 1;
+    bottom: 75px;
+    right: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .mainuconcept {
+    width: 100px;
+    height: 35px;
+    background: linear-gradient(
+      134deg,
+      rgb(106, 152, 240) 0%,
+      rgb(73, 97, 220) 99%
+    );
+    color: #f8f8f8;
+    border: none;
+    border-radius: 5px;
+    margin-top: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mainuTheme {
+    width: 100px;
+    height: 35px;
+    background: black;
+    color: #f8f8f8;
+    border: none;
+    border-radius: 5px;
+    margin-top: 8px;
+    cursor: pointer;
   }
 }

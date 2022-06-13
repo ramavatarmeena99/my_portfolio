@@ -125,13 +125,18 @@
     width: 100%;
   }
   .new {
-    width: 355px;
+    width: 350px;
     height: 50%;
     position: absolute;
     top: -250px;
     right: 0px;
     border-radius: 10px;
-    padding-left: 20px;
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    border: 1px solid black;
   }
   .projectImg {
     width: 100%;

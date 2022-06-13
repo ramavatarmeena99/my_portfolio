@@ -14,6 +14,9 @@ export default function Intro() {
   const open = () => {
     setIsClose(false);
   };
+  const returnThisComponent = () => {
+    setIsClose(true);
+  };
   return (
     <div className={Style.intro} id={"home"}>
       {isClose ? (
@@ -24,21 +27,33 @@ export default function Intro() {
         <>
           <div className={Style.mainuTitle}>
             <a href="#home">
-              <p className={Style.mainuconcept}>home</p>
+              <p className={Style.mainuconcept} onClick={returnThisComponent}>
+                home
+              </p>
             </a>
             <a href="#about">
-              <p className={Style.mainuconcept}>about me</p>
+              <p className={Style.mainuconcept} onClick={returnThisComponent}>
+                about me
+              </p>
             </a>
             <a href="#projects">
-              <p className={Style.mainuconcept}>projects</p>
+              <p className={Style.mainuconcept} onClick={returnThisComponent}>
+                projects
+              </p>
             </a>
             <a href="#contact">
-              <p className={Style.mainuconcept}>contact</p>
+              <p className={Style.mainuconcept} onClick={returnThisComponent}>
+                contact
+              </p>
             </a>
             <a href="#blogs">
-              <p className={Style.mainuconcept}>blogs</p>
+              <p className={Style.mainuconcept} onClick={returnThisComponent}>
+                blogs
+              </p>
             </a>
-            <button className={Style.mainuTheme}>Dark Mode</button>
+            <button className={Style.mainuTheme} onClick={returnThisComponent}>
+              Dark Mode
+            </button>
           </div>
 
           <div className={Style.mainuBaar} onClick={close}>

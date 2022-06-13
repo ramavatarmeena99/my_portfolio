@@ -9,6 +9,13 @@ export default function SameComponentUse(props) {
   return (
     <div className={Style.sameComponentUse}>
       <div className={Style.sameComponent}>
+        <div className={Style.newForMobile}>
+          <img
+            className={Style.projectImgForMobile}
+            src={props.projectImg}
+            alt="projects"
+          ></img>
+        </div>
         <div className={Style.left}>
           <h1 className={Style.projectName}>{props.projectName}</h1>
           <p className={Style.aboutForProject}>{props.aboutForProject}</p>

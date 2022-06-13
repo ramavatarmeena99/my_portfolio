@@ -5,7 +5,9 @@ export default function Header() {
   return (
     <div className={Style.header}>
       <div className={Style.leftHeader}>
-        <img className={Style.logoImg} alt="logo" src={logo} />
+        <a href="#home">
+          <img className={Style.logoImg} alt="logo" src={logo} />
+        </a>
       </div>
       <div className={Style.rightHeader}>
         <div className={Style.mainuDiv}>

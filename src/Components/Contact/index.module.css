@@ -87,6 +87,7 @@ textarea {
   padding: 10px;
   border-radius: 10px;
   font-family: "Montserrat", sans-serif;
+  background-color: #eaeaea;
 }
 .submitButton {
   width: 100%;

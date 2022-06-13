@@ -18,6 +18,7 @@
 .logoImg {
   width: auto;
   height: 290px;
+  cursor: pointer;
 }
 .rightHeader {
   width: 65%;

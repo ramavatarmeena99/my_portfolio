@@ -1,0 +1,19 @@
+.myProjects {
+  width: 100vw;
+  height: auto;
+}
+
+.sideProjects {
+  text-align: center;
+  color: rgb(109, 131, 242);
+  font-size: 25px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 800px) {
+  .sideProjects {
+    font-size: 20px;
+    padding-bottom: 50%;
+  }
+}

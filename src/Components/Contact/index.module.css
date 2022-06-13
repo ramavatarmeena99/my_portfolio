@@ -1,0 +1,211 @@
+.contact {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contactinfo {
+  text-align: center;
+  color: rgb(109, 131, 242);
+  font-size: 25px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  padding-bottom: 80px;
+}
+.ContactDetails {
+  width: 80%;
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.forLeft {
+  width: 100%;
+  height: 400px;
+  background-color: #628bec;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+}
+.forRight {
+  width: 100%;
+  height: 400px;
+  background-color: #628bec;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+}
+.rightSide {
+  position: absolute;
+  width: 840px;
+  top: -24px;
+  right: -30px;
+  padding: 30px 30px;
+  background: rgb(248, 248, 248);
+  border-radius: 10px;
+  height: 450px;
+  box-shadow: rgb(0 0 0 / 5%) 0px 5px 10px;
+}
+.buttom {
+  margin-left: 10px;
+}
+.top {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+}
+.left {
+  flex: 1;
+  height: 70%;
+  margin: 0px 5px;
+}
+.right {
+  flex: 1;
+  height: 70%;
+  margin: 0px 5px;
+}
+input {
+  width: 100%;
+  height: 45px;
+  border: none;
+  border-radius: 10px;
+  background-color: #eaeaea;
+  padding-left: 10px;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+}
+textarea {
+  width: 100%;
+  height: 200px;
+  text-align: start;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+.submitButton {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 10px;
+}
+.submit {
+  width: 100px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  background-color: #628bec;
+}
+.submit:hover {
+  transform: scale(1.05);
+}
+p {
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+
+.leftSide {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+.handshake {
+  width: 100px;
+  height: 100px;
+  color: #f8f8f8;
+}
+.thanksYou {
+  color: #f8f8f8;
+  font-size: 18px;
+}
+
+.anyQueries {
+  color: #f8f8f8;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 800px) {
+  .contactinfo {
+    font-size: 20px;
+    margin-bottom: -100px;
+    margin-top: -250px;
+  }
+  .ContactDetails {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .forLeft {
+    display: none;
+  }
+  .forRight {
+    height: 350px;
+    border-radius: 10px;
+  }
+  .leftSide {
+    display: none;
+  }
+
+  .rightSide {
+    position: absolute;
+    width: 340px;
+    top: 10px;
+    right: 7px;
+    padding: 30px 30px;
+    height: 470px;
+  }
+  .top {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  .left {
+    margin-bottom: 10px;
+  }
+  .right {
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 13px;
+    margin: 5px 0px;
+    text-align: left;
+  }
+  .buttom {
+    margin-top: 70px;
+    padding-left: 0px;
+  }
+  input {
+    font-size: 13px;
+  }
+  textarea {
+    height: 180px;
+    font-size: 13px;
+    margin-top: 0px;
+  }
+  .submit {
+    width: 90px;
+    height: 35px;
+    border-radius: 8px;
+    margin-right: 5px;
+  }
+}

@@ -80,6 +80,7 @@ h4 {
 @media only screen and (max-width: 800px) {
   .intro {
     flex-direction: column;
+    padding-top: 0px;
   }
   .leftSideIntro {
     width: 100%;
@@ -90,6 +91,7 @@ h4 {
 
   .helloWord {
     text-align: center;
+    padding-top: 8vh;
   }
   h1 {
     padding: 0px 10px;

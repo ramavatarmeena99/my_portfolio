@@ -142,6 +142,9 @@ p {
 }
 
 @media only screen and (max-width: 800px) {
+  .contact {
+    margin-top: 120px;
+  }
   .contactinfo {
     font-size: 20px;
     margin-bottom: -100px;
@@ -168,9 +171,9 @@ p {
 
   .rightSide {
     position: absolute;
-    width: 330px;
+    width: 310px;
     top: 10px;
-    right: 14px;
+    right: 9px;
     padding: 10px 10px;
     height: 470px;
   }

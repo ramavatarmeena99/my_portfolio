@@ -10,7 +10,7 @@ export default function SameComponentUse(props) {
     <div className={Style.sameComponentUse}>
       <div
         style={{
-          width: "80%",
+          width: "90%",
           height: "100%",
           display: "flex",
           flexDirection: "row",

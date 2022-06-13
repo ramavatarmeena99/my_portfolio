@@ -8,14 +8,7 @@ import { AiFillGithub } from "react-icons/ai";
 export default function SameComponentUse(props) {
   return (
     <div className={Style.sameComponentUse}>
-      <div
-        style={{
-          width: "90%",
-          height: "100%",
-          display: "flex",
-          flexDirection: "row",
-        }}
-      >
+      <div className={Style.sameComponent}>
         <div className={Style.left}>
           <h1 className={Style.projectName}>{props.projectName}</h1>
           <p className={Style.aboutForProject}>{props.aboutForProject}</p>

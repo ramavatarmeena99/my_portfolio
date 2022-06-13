@@ -1,6 +1,5 @@
 import React from "react";
 import Style from "./index.module.css";
-import logo from "../../Img/ramavatarmeena.png";
 
 export default function Footer() {
   return (

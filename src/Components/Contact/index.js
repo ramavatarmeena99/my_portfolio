@@ -18,15 +18,17 @@ export default function Contact() {
           <div className={Style.rightSide}>
             <div className={Style.top}>
               <div className={Style.right}>
-                <p>EMAIL</p>
-                <h1>meenaramavatar48@gmail.com</h1>
+                <p className={Style.styleForContactDetails}>EMAIL</p>
+                <h1 className={Style.personalDetails}>
+                  meenaramavatar48@gmail.com
+                </h1>
               </div>
               <div className={Style.right}>
-                <p>PHONE</p>
-                <h1>+91 8824316660</h1>
+                <p className={Style.styleForContactDetails}>PHONE</p>
+                <h1 className={Style.personalDetails}>+91 8824316660</h1>
               </div>
               <div className={Style.right}>
-                <p>ON THE WEB </p>
+                <p className={Style.styleForContactDetails}>ON THE WEB </p>
 
                 <div className={Style.left}>
                   <a

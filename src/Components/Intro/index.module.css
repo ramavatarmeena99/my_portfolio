@@ -98,14 +98,15 @@ h4 {
 }
 @media only screen and (max-width: 800px) {
   .intro {
+    height: 50vh;
     flex-direction: row;
     padding-top: 0px;
     position: relative;
     margin-bottom: 20px;
   }
   .shapeForIntro {
-    width: 35%;
-    height: 35%;
+    width: 45%;
+    height: 50%;
     background-color: #628bec;
     clip-path: polygon(37% 0, 100% 0, 100% 100%, 0 36%);
     position: absolute;

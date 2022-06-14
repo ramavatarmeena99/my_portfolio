@@ -82,7 +82,9 @@ export default function Intro() {
           </div>
         </div>
       </div>
-      <div className={Style.introBothSide}>RAMAVATAR MEENA</div>
+      <div className={Style.introRightSide}>
+        <div className={Style.shapeForIntro}></div>
+      </div>
     </div>
   );
 }

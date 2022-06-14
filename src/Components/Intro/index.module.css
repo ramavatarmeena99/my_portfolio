@@ -14,9 +14,23 @@
   justify-content: center;
   background-color: #f8f8f8;
 }
+.introRightSide {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background-color: #f8f8f8;
+}
 .leftSideIntro {
   width: 60%;
   height: 50%;
+}
+.shapeForIntro {
+  width: 80%;
+  height: 100%;
+  background-color: #5d83e8;
+  clip-path: polygon(37% 0, 100% 0, 100% 100%, 0 36%);
 }
 .helloWord {
   font-size: 16px;
@@ -84,24 +98,40 @@ h4 {
 }
 @media only screen and (max-width: 800px) {
   .intro {
-    flex-direction: column;
+    flex-direction: row;
     padding-top: 0px;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .shapeForIntro {
+    width: 35%;
+    height: 35%;
+    background-color: #628bec;
+    clip-path: polygon(37% 0, 100% 0, 100% 100%, 0 36%);
+    position: absolute;
+    top: 0px;
+    right: 0px;
   }
   .leftSideIntro {
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
   }
 
   .helloWord {
     text-align: center;
+    font-weight: 300;
     padding-top: 8vh;
   }
   h1 {
     padding: 0px 10px;
     text-align: center;
-    font-weight: 800;
+    font-weight: 900;
   }
   h4 {
     font-size: 14px;

@@ -1,7 +1,6 @@
 import React from "react";
 import Style from "./index.module.css";
 import { FaHandshake } from "react-icons/fa";
-import { RiSendPlaneFill } from "react-icons/ri";
 
 export default function Contact() {
   return (
@@ -18,30 +17,33 @@ export default function Contact() {
         <div className={Style.forRight}>
           <div className={Style.rightSide}>
             <div className={Style.top}>
-              <div className={Style.left}>
-                <p>Email</p>
-                <input type="email" placeholder="example@gmail.com"></input>
+              <div className={Style.right}>
+                <p>EMAIL</p>
+                <h1>meenaramavatar48@gmail.com</h1>
               </div>
               <div className={Style.right}>
-                <p>Name</p>
-                <input type="text" placeholder="Ramavatar Meena"></input>
+                <p>PHONE</p>
+                <h1>+91 8824316660</h1>
               </div>
-            </div>
-            <div className={Style.buttom}>
-              <p>Message</p>
-              <textarea
-                rows="10"
-                cols="50"
-                name="Reply"
-                form="useform"
-                placeholder="Hey there!"
-              ></textarea>
-            </div>
-            <div className={Style.submitButton}>
-              <button className={Style.submit}>
-                <RiSendPlaneFill />
-                Submit
-              </button>
+              <div className={Style.right}>
+                <p>ON THE WEB </p>
+
+                <div className={Style.left}>
+                  <a
+                    className={Style.linkedin}
+                    href="https://www.linkedin.com/in/ramavatar-meena-65b07b204/"
+                  >
+                    <h1 className={Style.link}>linkedin </h1>
+                  </a>
+                  <h1 className={Style.arrow}>|</h1>
+                  <a
+                    className={Style.twitter}
+                    href="https://twitter.com/Ramavat80153084"
+                  >
+                    <h1 className={Style.link}>twitter</h1>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>

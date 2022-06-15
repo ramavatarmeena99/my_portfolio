@@ -1,5 +1,6 @@
 import React from "react";
 import Style from "./index.module.css";
+import mePic from "../../Img/mePic.png";
 export default function AboutMe() {
   return (
     <>
@@ -10,7 +11,13 @@ export default function AboutMe() {
           <div className={Style.parellogramShape}>
             <div className={Style.shape}>
               <div className={Style.left}>
-                <div className={Style.img}></div>
+                <div className={Style.imgMe}>
+                  <img
+                    className={Style.mePic}
+                    src={mePic}
+                    alt="portfolio img"
+                  ></img>
+                </div>
               </div>
               <div className={Style.right}>
                 <p>

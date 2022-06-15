@@ -20,7 +20,7 @@ export default function AboutMe() {
                 </div>
               </div>
               <div className={Style.right}>
-                <p>
+                <p className={Style.myDetails}>
                   I am from Jaipur, the capital city of Rajasthan. I'm
                   B.Sc(Maths) graduate transitioning my career to a developer.
                   Currently, I'm learning ReactJS. Instead of mugging up the

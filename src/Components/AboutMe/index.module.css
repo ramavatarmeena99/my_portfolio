@@ -53,7 +53,7 @@
   padding: 0px 20px;
   padding-bottom: 80px;
 }
-p {
+.myDetails {
   font-size: 16px;
   margin: 0px;
   line-height: 1.5;
@@ -187,10 +187,11 @@ h5 {
     margin-left: 14px;
   }
 
-  p {
-    font-weight: 500;
+  .myDetails {
+    font-size: 15px;
+    font-weight: 300;
     line-height: 1.5;
-    margin-bottom: 0px;
+    padding-bottom: 30px;
   }
   .forReview {
     width: 100%;

@@ -65,7 +65,7 @@ export default function Intro() {
       <div className={Style.introBothSide}>
         <div className={Style.leftSideIntro}>
           <p className={Style.helloWord}>Hello, I’m</p>
-          <h1> RAMAVATAR MEENA</h1>
+          <h1 className={Style.me}> RAMAVATAR MEENA</h1>
           <h4>CREATIVE FRONT-END WEB DEVELOPER</h4>
           <div className={Style.myResume}>
             <button className={Style.resume}>Download Resume</button>

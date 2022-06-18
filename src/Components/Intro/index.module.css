@@ -38,9 +38,9 @@
   line-height: 150%;
 }
 
-h1 {
-  font-size: 35px;
-  font-weight: bolder;
+.me {
+  font-size: 37px;
+  font-weight: 900;
   margin: 5px 0px;
   color: #383838;
 }

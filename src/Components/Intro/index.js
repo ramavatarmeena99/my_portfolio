@@ -78,7 +78,9 @@ export default function Intro() {
             >
               <AiFillGithub className={Style.github} />
             </a>
-            <AiOutlineTwitter className={Style.twitter} />
+            <a href="https://twitter.com/Ramavat06439780">
+              <AiOutlineTwitter className={Style.twitter} />
+            </a>
           </div>
         </div>
       </div>

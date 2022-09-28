@@ -2,6 +2,8 @@ import ContactList from "./Img/ContactList.png";
 import ScoreKeeping from "./Img/ScoreKeeping.png";
 import YoutubeClone from "./Img/YoutubeClone.png";
 import DribbleClone from "./Img/DribbleClone.png";
+import AvatarTv from "./Img/AvatarTv.png";
+
 
 export const data = [
   {
@@ -34,6 +36,15 @@ export const data = [
   },
   {
     id: 4,
+    projectName: " AvatarTv",
+    aboutForProject:
+      "Hello everyone presenting AvatarTv Responsive Web Aplication...  AvtarTv  uses Youtube Data API &  Frontend based on React JS...  Here, I uses most important React JS features...  1-Custom Hooks,  2-React Routers....  A includes some below features:      1-You can like any video and that video will come in like component...    2-You can add videos to playlist...      3-You can add videos to watch later...  4-Played videos will be shown in history",
+    link: "https://avatar-tv.netlify.app/",
+    projectImg: AvatarTv,
+    projectGithubLink: "https://github.com/ramavatarmeena99/Avatar-TV",
+  },
+  {
+    id: 5,
     projectName: "Dribble Clone",
     aboutForProject:
       "Dribble clone using HTML5, CSS3 and Vanilla JavaScript.      ",
@@ -41,4 +52,5 @@ export const data = [
     projectImg: DribbleClone,
     projectGithubLink: "https://github.com/ramavatarmeena99/DribbleSiteClone",
   },
+
 ];

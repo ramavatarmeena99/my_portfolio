@@ -28,8 +28,12 @@ export default function AboutMe() {
                   <br />
                   <br />
                   You can find some of my projects here -
-                  <a href="https://github.com/ramavatarmeena99">
-                    <p>https://github.com/ramavatarmeena99</p>
+                  <a 
+
+                  href="https://github.com/ramavatarmeena99">
+                    <p className={Style.portfolioLink}
+                                  
+                    >https://github.com/ramavatarmeena99</p>
                   </a>
                   <br />
                   You can connect with me if you want -
@@ -48,32 +52,30 @@ export default function AboutMe() {
             <div className={Style.bestReview}>
               <div className={Style.reviews}>
                 <div className={Style.reviewerComment}>
-                  <h3>“Simplicity is the baddest choice to be the best.“</h3>
+                  <h3>“When you have a dream, you've got to grab it and never let go.“</h3>
                 </div>
                 <div className={Style.reviewerName}>
-                  <h5>-ramavatar meena</h5>
+                  <h5>—Carol Burnett</h5>
                 </div>
               </div>
               <div className={Style.reviews}>
                 <div className={Style.reviewerComment}>
                   <h3>
-                    “I know I’m not successful enough, but I’m passionate enough
-                    not to worry about success.“
+                  "Don't take rest after your first victory because if you fail in second, more lips are waiting to say that your first victory was just luck."
                   </h3>
                 </div>
                 <div className={Style.reviewerName}>
-                  <h5>-ramavatar meena</h5>
+                  <h5>-Dr APJ Abdul Kalam</h5>
                 </div>
               </div>
               <div className={Style.reviews}>
                 <div className={Style.reviewerComment}>
                   <h3>
-                    “Creativity is the driver of an unstoppable train called
-                    Passion.”
+                    “Live as if you were to die tomorrow. Learn as if you were to live forever.”
                   </h3>
                 </div>
                 <div className={Style.reviewerName}>
-                  <h5>-ramavatar meena</h5>
+                  <h5>-Mahatma Gandhi</h5>
                 </div>
               </div>
             </div>

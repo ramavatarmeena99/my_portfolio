@@ -60,12 +60,14 @@
   font-family: Karla, sans-serif;
   margin-bottom: 5px;
 }
-a {
+
+.portfolioLink{
+  width: auto;
   color: black;
   font-weight: 500;
 }
-a:hover {
-  color: rgb(19, 197, 87);
+.portfolioLink:hover {
+  color: rgb(25, 44, 32);
 }
 .imgMe {
   width: 250px;
@@ -142,9 +144,8 @@ h3 {
 h5 {
   font-size: 14px;
   margin: 0px;
-  font-weight: 300;
-
-  color: rgb(109, 131, 242);
+  font-weight: 500;
+  color: #000000;
   padding: 15px;
 }
 @media only screen and (max-width: 800px) {

@@ -4,10 +4,15 @@ import { AiFillGithub } from "react-icons/ai";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { IoMdClose } from "react-icons/io";
 import { FiMenu } from "react-icons/fi";
+// import { ThemeProvider } from "styled-components";
+// import { darkTheme, lightTheme } from "../Themes";
 
 export default function Intro() {
+  // const [theme, setTheme] = useState("light");
   const [isClose, setIsClose] = useState(true);
-
+  // const themeToggler = () => {
+  //   theme === "light" ? setTheme("dark") : setTheme("light");
+  // };
   const close = () => {
     setIsClose(true);
   };
@@ -61,8 +66,8 @@ export default function Intro() {
           </div>
         </>
       )}
-
-      <div className={Style.introBothSide}>
+{/* <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme} > */}
+<div className={Style.introBothSide}>
         <div className={Style.leftSideIntro}>
           <p className={Style.helloWord}>Hello, I’m</p>
           <h1 className={Style.me}> RAMAVATAR MEENA</h1>
@@ -87,6 +92,8 @@ export default function Intro() {
       <div className={Style.introRightSide}>
         <div className={Style.shapeForIntro}></div>
       </div>
+{/* </ThemeProvider> */}
+  
     </div>
   );
 }

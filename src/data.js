@@ -11,7 +11,7 @@ export const data = [
     projectName: "Contact List App",
     aboutForProject:
       "Hello everyone, I have made this fully Responsive Simple Contact App In React Redux... I Have used ReactJS as a frontend. I Am not using any backend in this Project, so a just client-side application  This is a CRUD application where users can be able to add, update and delete the contact...Here, I uses most important React JS features - React Hooks",
-    link: "https://addcontactlist.netlify.app/",
+    link: "https://avtar-react-telephonic-library.netlify.app/",
     projectImg: ContactList,
     projectGithubLink: "https://github.com/ramavatarmeena99/Contact_List_App",
   },

@@ -4,6 +4,7 @@ import { AiFillGithub } from "react-icons/ai";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { IoMdClose } from "react-icons/io";
 import { FiMenu } from "react-icons/fi";
+import Pdf from "../../Img/RESUME.pdf";
 // import { ThemeProvider } from "styled-components";
 // import { darkTheme, lightTheme } from "../Themes";
 
@@ -73,7 +74,13 @@ export default function Intro() {
           <h1 className={Style.me}> RAMAVATAR MEENA</h1>
           <h4>CREATIVE FRONT-END WEB DEVELOPER</h4>
           <div className={Style.myResume}>
-            <button className={Style.resume}>Download Resume</button>
+            <button className={Style.resume}>
+            <a href = {Pdf} target = "_blank" 
+              rel="noreferrer"
+            
+            > Download Resume</a>
+
+              </button>
           </div>
           <div className={Style.icons}>
             <a

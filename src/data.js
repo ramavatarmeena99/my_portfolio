@@ -1,7 +1,7 @@
 import ContactList from "./Img/ContactList.png";
 import ScoreKeeping from "./Img/ScoreKeeping.png";
 import YoutubeClone from "./Img/YoutubeClone.png";
-import DribbleClone from "./Img/DribbleClone.png";
+// import DribbleClone from "./Img/DribbleClone.png";
 import AvatarTv from "./Img/AvatarTv.png";
 
 
@@ -49,7 +49,7 @@ export const data = [
     aboutForProject:
       " using HTML5, CSS3, Vanilla JavaScript, ReactJs,.      ",
     link: "https://hightlighttextandarray.netlify.app/",
-    projectImg: DribbleClone,
+    // projectImg: DribbleClone,
     projectGithubLink: "https://github.com/ramavatarmeena99/Avatar-HighlightText-And-Array",
   },
 

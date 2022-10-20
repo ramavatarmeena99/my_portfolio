@@ -45,12 +45,12 @@ export const data = [
   },
   {
     id: 5,
-    projectName: "Dribble Clone",
+    projectName: "HighlightText And Array",
     aboutForProject:
-      "Dribble clone using HTML5, CSS3 and Vanilla JavaScript.      ",
-    link: "https://ramavatarmeena99.github.io/DribbleSiteClone/",
+      " using HTML5, CSS3, Vanilla JavaScript, ReactJs,.      ",
+    link: "https://hightlighttextandarray.netlify.app/",
     projectImg: DribbleClone,
-    projectGithubLink: "https://github.com/ramavatarmeena99/DribbleSiteClone",
+    projectGithubLink: "https://github.com/ramavatarmeena99/Avatar-HighlightText-And-Array",
   },
 
 ];

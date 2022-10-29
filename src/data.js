@@ -107,7 +107,6 @@ export const data = [
         AvatarTv includes some below features:
         <ul>
           <p>
-           
             1-You can like any video and that video will come in like
             component...
           </p>
@@ -124,7 +123,22 @@ export const data = [
   {
     id: 5,
     projectName: "HighlightText And Array",
-    aboutForProject: " using HTML5, CSS3, Vanilla JavaScript, ReactJs,.      ",
+    aboutForProject: (
+      <>
+        <p>
+          Hello everyone, I have made this Highlight Text And Array in ReactJS ,
+          keeping in mind the rules of the game... Tried to write clean code and
+          implemented DRY rule,
+        </p>
+        Technology Stack Used In This Project:-
+        <ul>
+          <li> ReactJs,</li>
+          <li>Styled Components,</li>
+          <li>HTML/CSS</li>
+        </ul>
+      </>
+    ),
+
     link: "https://hightlighttextandarray.netlify.app/",
     projectImg: HighlightText,
     projectGithubLink:
@@ -133,7 +147,20 @@ export const data = [
   {
     id: 6,
     projectName: "Render Image",
-    aboutForProject: " using HTML5, CSS3, Vanilla JavaScript, ReactJs,.      ",
+    aboutForProject: 
+    <>
+    <p>
+      Hello everyone, I have made this Render Image in ReactJS ,
+      keeping in mind the rules of the game... Tried to write clean code and
+      implemented DRY rule,
+    </p>
+    Technology Stack Used In This Project:-
+    <ul>
+      <li> ReactJs,</li>
+      <li>Styled Components,</li>
+      <li>HTML/CSS</li>
+    </ul>
+  </>,
     link: "https://avatarrenderimage.netlify.app/",
     projectImg: RenderImage,
     projectGithubLink:

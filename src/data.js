@@ -1,9 +1,9 @@
 import ContactList from "./Img/ContactList.png";
 import ScoreKeeping from "./Img/ScoreKeeping.png";
 import YoutubeClone from "./Img/YoutubeClone.png";
-// import DribbleClone from "./Img/DribbleClone.png";
+import HighlightText from "./Img/HighlightText.png";
 import AvatarTv from "./Img/AvatarTv.png";
-
+import RenderImage from "./Img/RenderImage.png"
 
 export const data = [
   {
@@ -49,8 +49,16 @@ export const data = [
     aboutForProject:
       " using HTML5, CSS3, Vanilla JavaScript, ReactJs,.      ",
     link: "https://hightlighttextandarray.netlify.app/",
-    // projectImg: DribbleClone,
+    projectImg: HighlightText,
     projectGithubLink: "https://github.com/ramavatarmeena99/Avatar-HighlightText-And-Array",
   },
-
+  {
+    id: 6,
+    projectName: "Render Image",
+    aboutForProject:
+      " using HTML5, CSS3, Vanilla JavaScript, ReactJs,.      ",
+    link: "https://avatarrenderimage.netlify.app/",
+    projectImg: RenderImage,
+    projectGithubLink: "https://github.com/ramavatarmeena99/Avatar-Render-Image",
+  },
 ];

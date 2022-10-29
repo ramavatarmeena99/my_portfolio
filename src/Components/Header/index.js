@@ -1,21 +1,7 @@
 import Style from "./index.module.css";
 import logo from "../../Img/ramavatarmeena.png";
-// import {ThemeProvider} from "styled-components";
-// import { useState } from "react";
-// import { darkTheme, lightTheme } from "../Themes";
-// import { GlobalStyles } from "../globalStyles";
-// import Toggle from "../Toggler";
 export default function Header() {
-  
-  // const [theme, setTheme] = useState("light");
-  // const themeToggler = () => {
-  //   theme === "light" ? setTheme("dark") : setTheme("light");
-  // };
-
-
   return (
-    // <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
-    //         <GlobalStyles/>
 
       <div className={Style.header}>
         <div className={Style.leftHeader}>
@@ -40,11 +26,11 @@ export default function Header() {
             <a href="#blogs">
               <p className={Style.mainuBaar}>blogs</p>
             </a>
-            {/* <Toggle theme={theme} toggleTheme={themeToggler} /> */}
+
 <button className={Style.theme}>dark mode</button>
           </div>
         </div>
       </div>
-    // </ThemeProvider>
+
   );
 }

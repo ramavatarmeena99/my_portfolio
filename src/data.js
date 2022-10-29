@@ -3,14 +3,31 @@ import ScoreKeeping from "./Img/ScoreKeeping.png";
 import YoutubeClone from "./Img/YoutubeClone.png";
 import HighlightText from "./Img/HighlightText.png";
 import AvatarTv from "./Img/AvatarTv.png";
-import RenderImage from "./Img/RenderImage.png"
+import RenderImage from "./Img/RenderImage.png";
 
 export const data = [
   {
     id: 1,
     projectName: "Contact List App",
-    aboutForProject:
-      "Hello everyone, I have made this fully Responsive Simple Contact App In React Redux... I Have used ReactJS as a frontend. I Am not using any backend in this Project, so a just client-side application  This is a CRUD application where users can be able to add, update and delete the contact...Here, I uses most important React JS features - React Hooks",
+    aboutForProject: (
+      <>
+        <p>Hello everyone,</p>
+        <p>
+          I have made this fully Responsive Simple Contact App In React Redux...
+          I Have used ReactJS as a frontend. I Am not using any backend in this
+          Project, so a just client-side application, This is a CRUD application
+          where users can be able to add, update and delete the contact...
+        </p>
+        Here, I uses most important React JS features
+        <ul>
+          <li>React Hooks</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>ReactJS</li>
+          <li>React Redux</li>
+        </ul>
+      </>
+    ),
     link: "https://avtar-react-telephonic-library.netlify.app/",
     projectImg: ContactList,
     projectGithubLink: "https://github.com/ramavatarmeena99/Contact_List_App",
@@ -18,8 +35,31 @@ export const data = [
   {
     id: 2,
     projectName: "Score Board In ReactJs",
-    aboutForProject:
-      "Hello everyone , I have made this Fully Responsive Cricket Match Score Keeper in React JS , keeping in mind the rules of the game...   Tried to write clean code and implemented DRY rule, wherever needed  Here, I uses most important React JS features   -Custom Hooks    Match Score Keeper includes some below features: 1-You can choose the Teams name and number of Overs yourself... 2-Match results can be seen only after both the teams have completed all the overs or 10 wickets...  3-If all the overs or 10 wickets of any one team fall, then that team cannot play further... 4-The team with the most runs will be the winner",
+    aboutForProject: (
+      <>
+        <p>
+          Hello everyone, I have made this Fully Responsive Cricket Match Score
+          Keeper in ReactJS , keeping in mind the rules of the game... Tried to
+          write clean code and implemented DRY rule,
+        </p>
+        Here, I uses most important React JS features:-
+        <p>Custom Hooks, HTML, CSS, ReactJS ,</p>
+        Match Score Keeper includes some below features:
+        <ul>
+          <p>1-You can choose the Teams name and number of Overs yourself...</p>
+          <p>
+            2-Match results can be seen only after both the teams have completed
+            all the overs or 10 wickets...
+          </p>
+          <p>
+            3-If all the overs or 10 wickets of any one team fall, then that
+            team cannot play further...
+          </p>
+          <p>4-The team with the most runs will be the winner</p>
+        </ul>
+      </>
+    ),
+
     link: "https://score-keeping-app.netlify.app/",
     projectImg: ScoreKeeping,
     projectGithubLink:
@@ -28,8 +68,27 @@ export const data = [
   {
     id: 3,
     projectName: "Youtube Clone",
-    aboutForProject:
-      "Hello everyone presenting Youtube Clone Responsive Web Aplication...  => Youtube Clone app uses Youtube Data API & Frontend based on React JS...  => Here, I uses most important React JS features-Custom Hooks... => -React Routers Youtube Clone includes some below features: 1-Browse videos by search... 2-Sort by most popular... 3-Get recommended videos related to search video...  4-Comments related to search video ",
+    aboutForProject: (
+      <>
+        <p>
+          Hello everyone presenting Youtube Clone Responsive Web Aplication...
+        </p>
+        <p>
+          Youtube Clone app uses Youtube Data API & Frontend based on React
+          JS...{" "}
+        </p>
+        Here, I uses most important React JS features:-
+        <p>-Custom Hooks, React Routers, HTML, CSS, ReactJS ,</p>
+        Youtube Clone includes some below features:
+        <ul>
+          <p> 1-Browse videos by search...</p>
+          <p>2-Sort by most popular...</p>
+          <p>3-Get recommended videos related to search video...</p>
+          <p> 4-Comments related to search video</p>
+        </ul>
+      </>
+    ),
+
     link: "https://theyoutube.netlify.app/",
     projectImg: YoutubeClone,
     projectGithubLink: "https://github.com/ramavatarmeena99/Youtube-Clone",
@@ -37,8 +96,27 @@ export const data = [
   {
     id: 4,
     projectName: " AvatarTv",
-    aboutForProject:
-      "Hello everyone presenting AvatarTv Responsive Web Aplication...  AvtarTv  uses Youtube Data API &  Frontend based on React JS...  Here, I uses most important React JS features...  1-Custom Hooks,  2-React Routers....  A includes some below features:      1-You can like any video and that video will come in like component...    2-You can add videos to playlist...      3-You can add videos to watch later...  4-Played videos will be shown in history",
+    aboutForProject: (
+      <>
+        <p>Hello everyone presenting AvatarTv Responsive Web Aplication...</p>
+        <p>
+          AvatarTv app uses Youtube Data API & Frontend based on React JS...
+        </p>
+        Here, I uses most important React JS features:-
+        <p>-Custom Hooks, React Routers, HTML, CSS, ReactJS ,</p>
+        AvatarTv includes some below features:
+        <ul>
+          <p>
+           
+            1-You can like any video and that video will come in like
+            component...
+          </p>
+          <p>2-You can add videos to playlist...</p>
+          <p>3-You can add videos to watch later...</p>
+          <p> 4-Played videos will be shown in history</p>
+        </ul>
+      </>
+    ),
     link: "https://avatar-tv.netlify.app/",
     projectImg: AvatarTv,
     projectGithubLink: "https://github.com/ramavatarmeena99/Avatar-TV",
@@ -46,19 +124,19 @@ export const data = [
   {
     id: 5,
     projectName: "HighlightText And Array",
-    aboutForProject:
-      " using HTML5, CSS3, Vanilla JavaScript, ReactJs,.      ",
+    aboutForProject: " using HTML5, CSS3, Vanilla JavaScript, ReactJs,.      ",
     link: "https://hightlighttextandarray.netlify.app/",
     projectImg: HighlightText,
-    projectGithubLink: "https://github.com/ramavatarmeena99/Avatar-HighlightText-And-Array",
+    projectGithubLink:
+      "https://github.com/ramavatarmeena99/Avatar-HighlightText-And-Array",
   },
   {
     id: 6,
     projectName: "Render Image",
-    aboutForProject:
-      " using HTML5, CSS3, Vanilla JavaScript, ReactJs,.      ",
+    aboutForProject: " using HTML5, CSS3, Vanilla JavaScript, ReactJs,.      ",
     link: "https://avatarrenderimage.netlify.app/",
     projectImg: RenderImage,
-    projectGithubLink: "https://github.com/ramavatarmeena99/Avatar-Render-Image",
+    projectGithubLink:
+      "https://github.com/ramavatarmeena99/Avatar-Render-Image",
   },
 ];

@@ -7,6 +7,7 @@ export default function Footer() {
       {/* <div className={Style.logoForFooter}>
         <img className={Style.logoFooterImg} alt="logo" src={logo} />
       </div> */}
+      <p>© 2021 Designed By Ramavatarmeena</p>
     </div>
   );
 }

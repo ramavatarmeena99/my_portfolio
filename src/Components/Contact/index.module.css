@@ -123,7 +123,7 @@
   font-size: 16px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
   .contact {
     height: 80vh;
     margin-top: 120px;

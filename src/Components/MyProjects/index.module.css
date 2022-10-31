@@ -11,7 +11,7 @@
   letter-spacing: 1px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
   .sideProjects {
     font-size: 20px;
     padding-bottom: 50px;

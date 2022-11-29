@@ -6,6 +6,9 @@ import MySkills from "./Components/MySkills";
 import MyProjects from "./Components/MyProjects";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
+import Blogs from "./Components/Blogs";
+
+
 // import { useState } from "react";
 
 
@@ -30,6 +33,7 @@ function App() {
       <AboutMe  />
       <MySkills  />
       <MyProjects />
+      <Blogs/>
       <Contact  />
       <Footer />
     </>

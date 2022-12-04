@@ -4,7 +4,9 @@ import YoutubeClone from "./Img/YoutubeClone.png";
 import HighlightText from "./Img/HighlightText.png";
 import AvatarTv from "./Img/AvatarTv.png";
 import RenderImage from "./Img/RenderImage.png";
-
+import debug from "./Img/debug.jpeg";
+import reactJs from "./Img/reactJs.png";
+import redux from "./Img/redux.jpeg";
 export const data = [
   {
     id: 1,
@@ -147,23 +149,50 @@ export const data = [
   {
     id: 6,
     projectName: "Render Image",
-    aboutForProject: 
-    <>
-    <p>
-      Hello everyone, I have made this Render Image in ReactJS ,
-      keeping in mind the rules of the game... Tried to write clean code and
-      implemented DRY rule,
-    </p>
-    Technology Stack Used In This Project:-
-    <ul>
-      <li> ReactJs,</li>
-      <li>Styled Components,</li>
-      <li>HTML/CSS</li>
-    </ul>
-  </>,
+    aboutForProject: (
+      <>
+        <p>
+          Hello everyone, I have made this Render Image in ReactJS , keeping in
+          mind the rules of the game... Tried to write clean code and
+          implemented DRY rule,
+        </p>
+        Technology Stack Used In This Project:-
+        <ul>
+          <li> ReactJs,</li>
+          <li>Styled Components,</li>
+          <li>HTML/CSS</li>
+        </ul>
+      </>
+    ),
     link: "https://avatarrenderimage.netlify.app/",
     projectImg: RenderImage,
     projectGithubLink:
       "https://github.com/ramavatarmeena99/Avatar-Render-Image",
+  },
+];
+
+export const blogData = [
+  {
+    id: 1,
+    blogTitle: "How To Debug A Code",
+    blogDiscription:
+      "We should not try to write clean code in the Start We should not write the code continuously ",
+    DebugImage: debug,
+  },
+  {
+    id: 2,
+    blogTitle: "How To Debug A Code",
+    blogDiscription:
+      "We should not try to write clean code in the Start We should not write the code continuously ",
+
+    DebugImage: reactJs,
+  },
+  {
+    id: 3,
+    blogTitle: "How To Debug A Code",
+    blogDiscription:
+      "We should not try to write clean code in the Start We should not write the code continuously ",
+
+    DebugImage: redux,
   },
 ];

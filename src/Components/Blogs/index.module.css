@@ -62,13 +62,13 @@ text-overflow: ellipsis;
     padding-right: 10px;
 
 }
-a{
+.readMore{
     color:black;
     display: flex;
     flex-direction: row;
     font-size: 16px;
 }
-a:hover{
+.readMore:hover{
     color: #2a8ff7;
 }
 .myInfo {

@@ -1,5 +1,6 @@
 import React from 'react'
 import { blogData } from '../../data';
+import { MdKeyboardArrowRight } from 'react-icons/md';
 
 import Style from "./index.module.css";
 
@@ -23,7 +24,8 @@ export default function index() {
           </p>
             </div>
             <div className={Style.bottomDiv}>
-              <h2>{item?.icon}</h2>
+            <MdKeyboardArrowRight  />
+
             </div>
         </div>
         );

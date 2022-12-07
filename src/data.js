@@ -7,7 +7,6 @@ import RenderImage from "./Img/RenderImage.png";
 import debug from "./Img/debug.jpeg";
 import reactJs from "./Img/reactJs.png";
 import redux from "./Img/redux.jpeg";
-import { MdKeyboardArrowRight } from 'react-icons/md';
 
 export const data = [
   {
@@ -180,7 +179,7 @@ export const blogData = [
     blogDiscription:
       "We should not try to write clean code in the Start..We should not write the code continuously, we should keep checking in the program again and again so that it can be known that the problem is coming in the code...(The problem of all the beginners is that they will first write all the code and then go and check whether the program is running or not...",
     DebugImage: debug,
-    icon:MdKeyboardArrowRight,
+
   },
   {
     id: 2,

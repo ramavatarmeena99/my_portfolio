@@ -9,7 +9,7 @@
 .container{
     width: 350px;
     height: 300px;
-    background-color: aqua;
+    background-color: #0e141b;
     margin: 20px;
     border-radius: 10px;
 }
@@ -33,6 +33,7 @@ img{
     display: flex;
     flex-direction: column;
     padding: 10px 20px;
+    color:#85888a;
 }
 h1{
     font-size: 18px;
@@ -58,5 +59,5 @@ h2{
     font-size: 20px;
     color:black;
     width: 20px;
-    
+
 }

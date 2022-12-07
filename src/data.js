@@ -176,8 +176,11 @@ export const blogData = [
   {
     id: 1,
     blogTitle: "How To Debug A Code",
+    blogTitleSecond: "...",
+    blogLink: "https://medium.com/@meenaramavatar48/how-to-debug-a-code-125cb387a5a3",
+
     blogDiscription:
-      "We should not try to write clean code in the Start..We should not write the code continuously, we should keep checking in the program again and again so that it can be known that the problem is coming in the code...(The problem of all the beginners is that they will first write all the code and then go and check whether the program is running or not...",
+      "A debugger, unfortunately, isn’t something that can magically reveal all the problems or “bugs” in our code. Debugging means to run your code step by step in a debugging tool like Visual Studio, to find the exact point where you made a programming mistake. You then understand what corrections you need to make in your code and debugging tools often allow you to make temporary changes so you can continue running the program.",
     DebugImage: debug,
 
   },
@@ -186,15 +189,17 @@ export const blogData = [
     blogTitle:
       "ReactJS Tutorial for Beginners: Learn with Step by Step Example",
     blogDiscription:
-      "About ReactJs Reactjs ek Free(svatantr) aur open-source Front-end Javascript Library hai. ReactJs ka use hum interactive user Interface and web applications quickly banane ke liye kiya jata hai",
-
+      "ReactJS is an open-source front-end JavaScript library for building user interfaces. ReactJS is maintained by Facebook and a community of individual developers and companies. It is widely used as a base in building single-page websites and mobile applications. It is very easy to use, and it allows users to create reusable UI components.",
+blogLink:"https://medium.com/@meenaramavatar48/react-js-notes-9aee2f2f53b4",
     DebugImage: reactJs,
   },
   {
     id: 3,
     blogTitle: "Beginner JavaScript Notes ",
+    blogTitleSecond: "...",
+    blogLink: "https://medium.com/@meenaramavatar48/javascript-24e404d02a19",
     blogDiscription:
-      "Use For Equal (===)- Nesting = Elements inside one element and object inside another object - code likh kr hmesa console jarur krwana hai jisse agr glti ho to hum phle hi sahi kar sake... - hume code clean likhna hai.. ",
+      "JavaScript is a lightweight, cross-platform, and interpreted compiled programming language which is also known as the scripting language for webpages. It is well-known for the development of web pages, many non-browser environments also use it. ",
 
     DebugImage: redux,
   },

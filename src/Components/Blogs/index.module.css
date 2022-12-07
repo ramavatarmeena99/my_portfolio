@@ -4,13 +4,14 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content:space-between;
+    padding:10px 140px;
+
 }
 .container{
-    width: 350px;
+    width:370px;
     height: 300px;
-    background-color: #0e141b;
-    margin: 20px;
+    box-shadow: rgb(0 0 0 / 5%) 0px 5px 10px;
     border-radius: 10px;
 }
 .forImage{
@@ -33,13 +34,16 @@ img{
     display: flex;
     flex-direction: column;
     padding: 10px 20px;
-    color:#85888a;
+    color: black;
+
 }
 h1{
     font-size: 17px;
+    font-weight: 500;
 }
 p{
-    padding-top: 5px;
+    padding-top: 8px;
+    font-weight: 400;
     font-size: 15px;
     display: -webkit-box;
 -webkit-line-clamp: 2;
@@ -54,12 +58,12 @@ text-overflow: ellipsis;
     align-items: center;
     justify-content: flex-end;
     font-size: 16px;
-    color: #85888a;
+    color: black;
     padding-right: 10px;
 
 }
 a{
-    color:#85888a;
+    color:black;
     display: flex;
     flex-direction: row;
     font-size: 16px;
@@ -67,3 +71,26 @@ a{
 a:hover{
     color: #2a8ff7;
 }
+.myInfo {
+    text-align: center;
+    color: rgb(109, 131, 242);
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin: 20px 0px;
+
+  }
+
+  @media only screen and (max-width: 700px) {
+    .blog{
+        flex-direction: column;
+    padding:0px 0px;
+
+    }
+    .container{
+        width: auto;
+        margin: 20px;
+
+    }
+  }
+  

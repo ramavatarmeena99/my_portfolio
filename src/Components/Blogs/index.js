@@ -6,8 +6,10 @@ import Style from "./index.module.css";
 
 export default function index() {
   return (
-    <div className={Style.blog}>
+    <>
+        <h1 className={Style.myInfo}>Latest News & Blog</h1>
 
+    <div className={Style.blog}>
 {blogData.map((item, index) => {
         return (
         <div className={Style.container} key={index}>
@@ -39,26 +41,11 @@ export default function index() {
 
 
 
-{/* <div className={Style.container}>
-<div className={Style.forImage}>
-<img     src={reactJs}
-                    alt="portfolio img"></img>
-</div>
-<div className={Style.title}>
 
-</div>
-</div>
-<div className={Style.container}>
-<div className={Style.forImage}>
-<img     src={redux}
-                    alt="portfolio img"></img>
-</div>
-<div className={Style.title}>
-
-</div>
-</div> */}
 
 
     </div>
+    </>
+    
   )
 }

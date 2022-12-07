@@ -26,7 +26,8 @@ export default function index() {
             </div>
             <div className={Style.bottomDiv}>
             <a href={item.blogLink} target="_blank" rel="noreferrer">
-            Read More<MdKeyboardArrowRight  />
+            Read More
+            <h2><MdKeyboardArrowRight  /></h2>
 
             </a>
 

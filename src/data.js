@@ -176,22 +176,23 @@ export const blogData = [
     id: 1,
     blogTitle: "How To Debug A Code",
     blogDiscription:
-      "We should not try to write clean code in the Start We should not write the code continuously ",
+      "We should not try to write clean code in the Start..We should not write the code continuously, we should keep checking in the program again and again so that it can be known that the problem is coming in the code...(The problem of all the beginners is that they will first write all the code and then go and check whether the program is running or not...",
     DebugImage: debug,
   },
   {
     id: 2,
-    blogTitle: "How To Debug A Code",
+    blogTitle:
+      "ReactJS Tutorial for Beginners: Learn with Step by Step Example",
     blogDiscription:
-      "We should not try to write clean code in the Start We should not write the code continuously ",
+      "About ReactJs Reactjs ek Free(svatantr) aur open-source Front-end Javascript Library hai. ReactJs ka use hum interactive user Interface and web applications quickly banane ke liye kiya jata hai",
 
     DebugImage: reactJs,
   },
   {
     id: 3,
-    blogTitle: "How To Debug A Code",
+    blogTitle: "Beginner JavaScript Notes ",
     blogDiscription:
-      "We should not try to write clean code in the Start We should not write the code continuously ",
+      "Use For Equal (===)- Nesting = Elements inside one element and object inside another object - code likh kr hmesa console jarur krwana hai jisse agr glti ho to hum phle hi sahi kar sake... - hume code clean likhna hai.. ",
 
     DebugImage: redux,
   },

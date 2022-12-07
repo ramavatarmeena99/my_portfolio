@@ -18,9 +18,10 @@
   justify-content: center;
 }
 .logoImg {
-  width: auto;
-  height: 290px;
+  width: 250px;
+  height: 50px;
   cursor: pointer;
+  background-color: none;
 }
 .rightHeader {
   width: 65%;

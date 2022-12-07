@@ -1,5 +1,5 @@
 import Style from "./index.module.css";
-import logo from "../../Img/ramavatarmeena.png";
+import logo from "../../Img/logo.svg";
 export default function Header() {
 const darkModeAlert = () =>{
   alert("still working on it")

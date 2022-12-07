@@ -22,6 +22,9 @@ export default function index() {
           {/* we should keep checking in the program again and again so that it can be known that the problem is coming in the code…(The problem of all the beginners is that they will first write all the code and then go and check whether the program is running or not… */}
           </p>
             </div>
+            <div className={Style.bottomDiv}>
+              <h2>{item?.icon}</h2>
+            </div>
         </div>
         );
       })}

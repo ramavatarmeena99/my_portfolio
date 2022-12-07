@@ -36,6 +36,7 @@ img{
     padding: 10px 20px;
     color: black;
 
+
 }
 h1{
     font-size: 17px;
@@ -92,5 +93,13 @@ text-overflow: ellipsis;
         margin: 20px;
 
     }
+    .title{
+        padding: 10px 10px;
+    }
+    h1{
+        text-align: left;
+        padding: 0px;
+    }
+
   }
   

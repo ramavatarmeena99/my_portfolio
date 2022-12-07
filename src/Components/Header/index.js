@@ -1,6 +1,9 @@
 import Style from "./index.module.css";
 import logo from "../../Img/ramavatarmeena.png";
 export default function Header() {
+const darkModeAlert = () =>{
+  alert("still working on it")
+}
   return (
 
       <div className={Style.header}>
@@ -27,7 +30,7 @@ export default function Header() {
               <p className={Style.mainuBaar}>blogs</p>
             </a>
 
-<button className={Style.theme}>dark mode</button>
+<button onClick={darkModeAlert} className={Style.theme}>dark mode</button>
           </div>
         </div>
       </div>

@@ -5,8 +5,8 @@ import HighlightText from "./Img/HighlightText.png";
 import AvatarTv from "./Img/AvatarTv.png";
 import RenderImage from "./Img/RenderImage.png";
 import debug from "./Img/debug.jpeg";
-import reactJs from "./Img/reactJs.png";
-import redux from "./Img/redux.jpeg";
+import reactJs from "./Img/ReactJS.png";
+import javacript from "./Img/javacript.webp";
 
 export const data = [
   {
@@ -201,6 +201,6 @@ blogLink:"https://medium.com/@meenaramavatar48/react-js-notes-9aee2f2f53b4",
     blogDiscription:
       "JavaScript is a lightweight, cross-platform, and interpreted compiled programming language which is also known as the scripting language for webpages. It is well-known for the development of web pages, many non-browser environments also use it. ",
 
-    DebugImage: redux,
+    DebugImage: javacript,
   },
 ];

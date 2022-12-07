@@ -7,9 +7,9 @@ import Style from "./index.module.css";
 export default function index() {
   return (
     <>
-        <h1 className={Style.myInfo}>Latest News & Blog</h1>
+        <h1 id={"blogs"} className={Style.myInfo}>Latest News & Blog</h1>
 
-    <div className={Style.blog}>
+    <div className={Style.blog} >
 {blogData.map((item, index) => {
         return (
         <div className={Style.container} key={index}>

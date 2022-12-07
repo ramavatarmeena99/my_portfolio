@@ -4,6 +4,9 @@ import { AiFillGithub } from "react-icons/ai";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { IoMdClose } from "react-icons/io";
 import { FiMenu } from "react-icons/fi";
+import { BsMedium } from "react-icons/bs";
+
+
 import Pdf from "../../Img/RESUME.pdf";
 // import { ThemeProvider } from "styled-components";
 // import { darkTheme, lightTheme } from "../Themes";
@@ -93,6 +96,10 @@ export default function Intro() {
             <a href="https://twitter.com/Ramavat06439780">
               <AiOutlineTwitter className={Style.twitter} />
             </a>
+            <a href="https://medium.com/@meenaramavatar48">
+              <BsMedium className={Style.twitter} />
+            </a>
+            
           </div>
         </div>
       </div>

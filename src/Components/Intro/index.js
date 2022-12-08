@@ -8,7 +8,7 @@ import { BsMedium } from "react-icons/bs";
 
 
 import Pdf from "../../Img/RESUME.pdf";
-import freelance from "../../Img/freelance.png";
+// import freelance from "../../Img/freelance.png";
 
 // import { ThemeProvider } from "styled-components";
 // import { darkTheme, lightTheme } from "../Themes";

@@ -30,6 +30,9 @@
   width: 80%;
   height: 100%;
   background-color: #5d83e8;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   clip-path: polygon(37% 0, 100% 0, 100% 100%, 0 36%);
 }
 .helloWord {
@@ -95,6 +98,13 @@ h4 {
 }
 .mainuTitle {
   display: none;
+}
+.freelanceImage{
+  width: auto;
+  height: 50%;
+  cursor: pointer;
+  background-color: none;
+
 }
 @media only screen and (max-width: 700px) {
   .intro {

@@ -8,6 +8,8 @@ import { BsMedium } from "react-icons/bs";
 
 
 import Pdf from "../../Img/RESUME.pdf";
+import freelance from "../../Img/freelance.png";
+
 // import { ThemeProvider } from "styled-components";
 // import { darkTheme, lightTheme } from "../Themes";
 
@@ -104,7 +106,11 @@ export default function Intro() {
         </div>
       </div>
       <div className={Style.introRightSide}>
-        <div className={Style.shapeForIntro}></div>
+      
+        <div className={Style.shapeForIntro}>
+        {/* <img className={Style.freelanceImage} alt="logo" src={freelance} /> */}
+
+        </div>
       </div>
 {/* </ThemeProvider> */}
   
